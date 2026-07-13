@@ -63,10 +63,10 @@ function Hero() {
                             <div className="absolute inset-0 bg-cyan-500/30 blur-3xl rounded-full"></div>
 
                             <img
-                                src="/images/Foto Arkan.jpg"
+                                src={`${import.meta.env.BASE_URL}images/Foto Arkan.jpg`}
                                 alt="Muhammad Arkana Sudaryono"
                                 className="relative w-80 h-80 rounded-full object-cover border-4 border-cyan-400 shadow-2xl"
-                            />
+                            />  
                         </div>
                     </div>
 

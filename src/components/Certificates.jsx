@@ -28,7 +28,7 @@ function Certificates() {
 
                             <div className="overflow-hidden rounded-2xl h-44 mb-5">
                                 <img
-                                    src={certificate.image}
+                                    src={`${import.meta.env.BASE_URL}${certificate.image.replace(/^\//, "")}`}
                                     alt={certificate.title}
                                     className="w-full h-full object-cover hover:scale-105 transition duration-500"
                                 />
