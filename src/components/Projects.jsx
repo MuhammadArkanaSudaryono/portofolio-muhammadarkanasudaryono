@@ -25,7 +25,7 @@ function Projects() {
                         >
                             <div className="h-40 rounded-2xl bg-slate-700 mb-5 flex items-center justify-center text-slate-400">
                                 <img
-                                    src={project.image}
+                                    src={`${import.meta.env.BASE_URL}${project.image.replace(/^\//, "")}`}
                                     alt={project.title}
                                     className="w-full h-full object-cover hover:scale-105 transition duration-300"
                                 />
